@@ -1,0 +1,10 @@
+source "https://rubygems.org"
+ruby '2.5.1'
+gem 'rubocop', '~> 0.57.2'
+gem 'pry'
+gem 'twitter'
+gem 'dotenv'
+gem 'watir'
+gem 'httparty'
+gem 'gmail'
+gem 'google-api-client', '~> 0.8'
