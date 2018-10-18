@@ -3,7 +3,7 @@ require './classes/scraper.rb'
 require 'nokogiri'
 require 'open-uri'
 
-tab = [["https://www.annuaire-des-mairies.com/pyrenees-orientales.html", 226],["https://www.annuaire-des-mairies.com/yvelines.html", 262],["https://www.annuaire-des-mairies.com/vaucluse.html", 151]]
+tab = [["https://www.annuaire-des-mairies.com/martinique.html", 34],["https://www.annuaire-des-mairies.com/reunion.html", 24],["https://www.annuaire-des-mairies.com/yvelines", 262]]
 def perform (url, y)
   @url = url
   tab = Array.new
@@ -20,4 +20,19 @@ def perform (url, y)
   return result
 end
 
-puts perform(tab[1][0], tab[1][1])
+k = 0
+#while (k < 3)
+ # puts "Travail en cours, #{k + 1}/3"
+  puts perform(tab[2][0], tab[2][1])
+  #k = k + 1
+#end
+
+
+
+
+
+
+
+
+
+
